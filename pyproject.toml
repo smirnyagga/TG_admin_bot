@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "admin-bot-new"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "admin_bot_new"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "2.25.1"
+asyncpg = "^0.28.0"
+loguru = "^0.7.2"
+pydantic = "^2.3.0"
+python-dotenv = "^1.0.0"
+validators = "^0.22.0"
+verboselogs = "^1.7"
+asyncio = "^3.4.3"
+envreader = "^0.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
